@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.chessboard_key {
+  cursor: pointer;
+  padding: 18px;
+  margin: 5px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highlighted{
+  background-color: yellow;
+}
+.selected{
+  background-color: green;
+}
